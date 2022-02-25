@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE45350C27C7F2250054A1AC /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE45350B27C7F2250054A1AC /* DetailsView.swift */; };
 		BEC7DCF927C78FB600989B33 /* EcomerceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7DCF827C78FB600989B33 /* EcomerceAppApp.swift */; };
 		BEC7DCFB27C78FB600989B33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7DCFA27C78FB600989B33 /* ContentView.swift */; };
 		BEC7DCFD27C78FB700989B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC7DCFC27C78FB700989B33 /* Assets.xcassets */; };
 		BEC7DD0027C78FB700989B33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC7DCFF27C78FB700989B33 /* Preview Assets.xcassets */; };
+		BEC7DD0A27C7900E00989B33 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7DD0927C7900E00989B33 /* BaseView.swift */; };
+		BEC7DD0C27C7906300989B33 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7DD0B27C7906300989B33 /* BaseViewModel.swift */; };
+		BEC7DD0E27C79A6300989B33 /* CustomCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7DD0D27C79A6300989B33 /* CustomCurve.swift */; };
+		BEC7DD1027C7A89500989B33 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7DD0F27C7A89500989B33 /* Home.swift */; };
+		BEC7DD1227C7B11200989B33 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7DD1127C7B11200989B33 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE45350B27C7F2250054A1AC /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		BEC7DCF527C78FB600989B33 /* EcomerceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcomerceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC7DCF827C78FB600989B33 /* EcomerceAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomerceAppApp.swift; sourceTree = "<group>"; };
 		BEC7DCFA27C78FB600989B33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BEC7DCFC27C78FB700989B33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEC7DCFF27C78FB700989B33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEC7DD0927C7900E00989B33 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		BEC7DD0B27C7906300989B33 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		BEC7DD0D27C79A6300989B33 /* CustomCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurve.swift; sourceTree = "<group>"; };
+		BEC7DD0F27C7A89500989B33 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		BEC7DD1127C7B11200989B33 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,9 @@
 		BEC7DCF727C78FB600989B33 /* EcomerceApp */ = {
 			isa = PBXGroup;
 			children = (
+				BEC7DD0827C78FF600989B33 /* ViewModel */,
+				BEC7DD0727C78FEA00989B33 /* Model */,
+				BEC7DD0627C78FDB00989B33 /* View */,
 				BEC7DCF827C78FB600989B33 /* EcomerceAppApp.swift */,
 				BEC7DCFA27C78FB600989B33 /* ContentView.swift */,
 				BEC7DCFC27C78FB700989B33 /* Assets.xcassets */,
@@ -65,6 +80,33 @@
 				BEC7DCFF27C78FB700989B33 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BEC7DD0627C78FDB00989B33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEC7DD0927C7900E00989B33 /* BaseView.swift */,
+				BEC7DD0D27C79A6300989B33 /* CustomCurve.swift */,
+				BEC7DD0F27C7A89500989B33 /* Home.swift */,
+				BE45350B27C7F2250054A1AC /* DetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BEC7DD0727C78FEA00989B33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEC7DD1127C7B11200989B33 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEC7DD0827C78FF600989B33 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BEC7DD0B27C7906300989B33 /* BaseViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC7DD0A27C7900E00989B33 /* BaseView.swift in Sources */,
+				BEC7DD0E27C79A6300989B33 /* CustomCurve.swift in Sources */,
+				BEC7DD0C27C7906300989B33 /* BaseViewModel.swift in Sources */,
 				BEC7DCFB27C78FB600989B33 /* ContentView.swift in Sources */,
+				BEC7DD1027C7A89500989B33 /* Home.swift in Sources */,
+				BE45350C27C7F2250054A1AC /* DetailsView.swift in Sources */,
 				BEC7DCF927C78FB600989B33 /* EcomerceAppApp.swift in Sources */,
+				BEC7DD1227C7B11200989B33 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
